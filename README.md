@@ -14,8 +14,10 @@ body {
 </head>
 <body>
 
-<h1>Anime Center</h1>
-<p>A website about Popular Anime Shows</p>
+<div class="header">
+  <h1>Anime Centre</h1>
+  <p>An informative website about the most popular Animes</p>
+</div>
 
 </body>
 </html>
