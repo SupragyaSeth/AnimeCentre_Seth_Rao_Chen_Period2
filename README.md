@@ -1,23 +1,18 @@
 # AnimeCentre_Seth_Rao_Chen_Period2
 
+# This is the About Us section for the website.
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Anime Centre</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-</style>
+  <title>About the Creators</title>
 </head>
 <body>
 
-<div class="header">
-  <h1>Anime Centre</h1>
-  <p>An informative website about the most popular Animes</p>
-</div>
+<h1>The creators of the website and Aditya Rao, Tristan Chen, and Supragya Seth. </h1>
+<p>We made thsi website because we all have a big interest in Anime and are interested in the world of coding. We created this website to help the public by giving informatin about popualr Anime's in existance, through our coding abilities. </p>\
 
+<h2>Contact Information</h2>
+<p>Phone Numbers and Emails:</p>
 </body>
 </html>
