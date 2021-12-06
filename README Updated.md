@@ -10,11 +10,11 @@
 <body>
 
 <h1>The creators of the website and Aditya Rao, Tristan Chen, and Supragya Seth. </h1>
-<p>We made this website because we all have a big interest in Anime and are interested in the world of coding. We created this website to help the public by giving informatin about popualr Anime's in existance, through our coding abilities. </p>\
+<p>We made this website because we all have a big interest in Anime and are interested in the world of coding. We created this website to help the public by giving informatin about popualr Anime's in existance, through our coding abilities. </p>
 
-body {
-background-color: lightblue;
-}
+<style>
+body {background-color: lightblue;}
+</style>
 
 <h2>Contact Information</h2>
 <p>Phone Numbers and Emails:</p>
