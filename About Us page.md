@@ -1,0 +1,53 @@
+<!-- AnimeCentre_Seth_Rao_Chen_Period2 -->
+
+<!-- This is the About of Section of the Website -->
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  opacity: 0.5;
+}
+</style>
+</head>
+<body>
+
+<body>
+<body background="https://pbs.twimg.com/media/DVoijPTXUAA-QGp.jpg">
+</body>
+
+<link href='https://fonts.googleapis.com/css?family=Playfair Display'>
+<style>
+body {
+    font-family: 'Playfair Display';font-size: 45px;
+}
+</style>
+</head>
+<body>
+
+<h1>About the Creators</h1>
+</body>
+</html>
+
+<html>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Arvo" />
+<style>
+body {
+    font-family: 'Arvo';font-size: 20px;
+}
+</style>
+<head>
+</head>
+<body>\
+<h2 style="background-color:DodgerBlue;">The creators of the website and Aditya Rao, Tristan Chen, and Supragya Seth. </h2>
+<h3 style="background-color:Tomato;"><p> We made this website because we all have a big interest in Anime and are interested in the world of coding. We created this website to help the public by giving information about popular Anime's in existance, through our coding abilities.</p></h3>
+
+<h2 style="background-color:#6495ED;"> Contact Information. </h2>
+<h4 style="background-color:LightSalmon;">Phone Numbers and Emails:</h4>
+<ol style="background-color:#DE3163;">
+  <li>Aditya Rao: (999)999-999; aditya@gmail.com</li>
+  <li>Tristan Chen: (888)888-888; tristan@gmail.com</li>
+  <li>Supragya Seth: (777)777-777; supragya@gmail.com</li>
+  </ol>
+  </body>
+</html>
