@@ -32,8 +32,18 @@
   color: rgb(154, 136, 233); /* text color */
 }
 
-.body{
-padding: 420px; /* some padding */
-text-align: center; /* center the text */
-background: #224cbd;
+.body h1{
+  color: white;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  font-size: 90px;
+  margin: 10px;
+  font-family: Arial;
+}
+
+.listback{
+  padding: 210px; /* some padding */
+ text-align: center; /* center the text */
+ background: #224cbd;
 }
