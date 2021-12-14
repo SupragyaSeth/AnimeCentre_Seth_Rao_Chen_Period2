@@ -7,12 +7,6 @@
     <title>About Us</title>
     <link href="Styles.css" rel="stylesheet">
     <style>
-        img {
-          opacity: 0.5;
-        }
-    </style>        
-    <link href='https://fonts.googleapis.com/css?family=Playfair Display'>
-    <style>
      body {
           font-family: 'Playfair Display';font-size: 45px;
            background-image: url('https://pbs.twimg.com/media/DVoijPTXUAA-QGp.jpg');
@@ -24,20 +18,76 @@
 </head>
 <body>
 <div class="header">
-    <h1>Anime Center</h1>
+    <h1 style="font-family: Times New Roman">Anime Center </h1>
+      </style>        
+   
 </div>
 <div class="navbar">
     <a href="Homepage.html">Home</a>
     <a href="Animelist.html">Popular Anime</a>
     <a href="Aboutus.html">About Us</a>
 </div>
-    <h1>About the Creators</h1>
-<h2 style="background-color:DodgerBlue;">The creators of the website and Aditya Rao, Tristan Chen, and Supragya Seth. </h2>
-<h3 style="background-color:Tomato;"><p> We made this website because we all have a big interest in Anime and are interested in the world of coding. We created this website to help the public by giving information about popular Anime's in existance, through our coding abilities.</p></h3>
+<div>
+    <h1 style="font-family: Verdana">About the Creators</h1>
+    <style>
+  h1 {
+          font-size: 45px;
+          background-image: url('https://pbs.twimg.com/media/DVoijPTXUAA-QGp.jpg');
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+     }
+    </style>
 
-<h2 style="background-color:#6495ED;"> Contact Information. </h2>
-<h4 style="background-color:LightSalmon;">Phone Numbers and Emails:</h4>
-<ol style="background-color:#DE3163;">
+<style>
+div.slide-left {
+  width:100%;
+  overflow:hidden;
+}
+div.slide-left h2 {
+  animation: slide-left 5s;
+}
+
+@keyframes slide-left {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+</style>
+
+<div class="slide-left">
+<h2 style="background-color:#FFFFFF;">
+<div>
+<h2 style="font-family: Georgia">The creators of the website and Aditya Rao, Tristan Chen, and Supragya Seth.
+</div>
+</h2>
+
+ <style>
+        h3 {
+            animation: fadeInAnimation ease 20s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+<h3 style="background-color:#FFFFFF;"><p> We made this website because we all have a big interest in Anime and are interested in the world of coding. We created this website to help the public by giving information about popular Anime's in existance, through our coding abilities.</p></h3>
+
+<h4 style="background-color:#FFFFFF;"> Contact Information. </h4>
+<h5 style="background-color:#FFFFFF;">Phone Numbers and Emails:</h5>
+<ol style="background-color:#FFFFFF;">
   <li>Aditya Rao: (999)999-999; aditya@gmail.com</li>
   <li>Tristan Chen: (888)888-888; tristan@gmail.com</li>
   <li>Supragya Seth: (777)777-777; supragya@gmail.com</li>
