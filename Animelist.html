@@ -35,6 +35,7 @@
       }
     </style>
 </head>
+
 <body style="background-color:rgba(68, 68, 68, 0.877);">
     <div class="header">
         <h1>Anime Center</h1>
@@ -46,7 +47,7 @@
     </div>
     <table>
       <tbody>
-        <tr data-href="AoTpage.html">
+        <tr data-href="AoTpage.html" onmouseover="ChangeBackgroundColor(this)" onmouseout="RestoreBackgroundColor(this)">
           <td width="200px">
               <div class="img-container">
                 <img src="https://m.media-amazon.com/images/M/MV5BMTY5ODk1NzUyMl5BMl5BanBnXkFtZTgwMjUyNzEyMTE@._V1_.jpg" alt="image" width="123" height="200">
@@ -285,5 +286,12 @@
     </table>
 
       <script src="Animelist.js"></script>
+      <script type="text/javascript">
+        var TableBackgroundNormalColor = "#ffffff";
+        var TableBackgroundMouseoverColor = "#9999ff";
+        function ChangeBackgroundColor(row) { row.style.backgroundColor = TableBackgroundMouseoverColor; }
+        function RestoreBackgroundColor(row) { row.style.backgroundColor = TableBackgroundNormalColor; }
+        </script>
+        
 </body>
 </html>
