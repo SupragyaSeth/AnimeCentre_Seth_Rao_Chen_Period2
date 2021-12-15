@@ -68,3 +68,13 @@ td {
   padding: 10px;
 }
 
+.description {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 95%;
+  left: 5%;
+  margin: 10px;
+  font-family: Arial;
+}
+
