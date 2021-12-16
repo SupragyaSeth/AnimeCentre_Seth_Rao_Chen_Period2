@@ -8,6 +8,7 @@
 /* Increase the font size of the <h1> element */
 .header h1 {
   font-size: 40px;
+  font-family: Verdana;
 }
 
 /* Style the top navigation bar */
@@ -79,4 +80,8 @@ td {
 
 .center{
 background-color: rgb(123,129,138) ;
+}
+
+.creatorss {
+  font-size: 30px;
 }
