@@ -54,29 +54,3 @@
   background-attachment: fixed;
   background-size: cover;
   }
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 90%;
-}
-
-td {
-  border: 1px solid black;
-  text-align: left;
-  padding: 10px;
-}
-
-.description {
-  font-size: 30px;
-  color: white;
-  position: absolute;
-  top: 95%;
-  left: 5%;
-  margin: 10px;
-  font-family: Arial;
-}
-
-.center{
-background-color: rgb(123,129,138) ;
-}

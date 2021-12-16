@@ -48,9 +48,12 @@
 }
 
 .content {
+  color: white;
   padding: 0 18px;
   max-height: 0;
   overflow: hidden;
+  width: 57.65%;
+  margin-left: 33.55%;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: #252525;
 }
