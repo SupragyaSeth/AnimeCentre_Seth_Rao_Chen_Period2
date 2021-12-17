@@ -8,6 +8,7 @@
 /* Increase the font size of the <h1> element */
 .header h1 {
   font-size: 40px;
+  font-family: Verdana;
 }
 
 /* Style the top navigation bar */
@@ -53,4 +54,3 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  }
