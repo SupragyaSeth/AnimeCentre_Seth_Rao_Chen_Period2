@@ -55,3 +55,14 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
+.description {
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+  font-size: 30px;
+  margin: 10px;
+  font-family: Arial;
+
+}
