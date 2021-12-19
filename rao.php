@@ -18,7 +18,7 @@ if(isset($_POST['submit']))
     
     if(mysqli_query($link,$insert_info))
     {
-        echo "Success";
+        echo "Thank you for filling out this form";
     }
     mysqli_close($link);
 
