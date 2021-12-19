@@ -1,37 +1,37 @@
 const Questions = [
   {
     id: 0,
-    q: "What is the name of the main character in One Punch Man?",
+    q: "Who is the main character in KonoSuba?",
     a: [
-      { text: "Genos", isCorrect: false },
-      { text: "Kaneki", isCorrect: false },
-      { text: "Saitama", isCorrect: true },
-      { text: "Bang", isCorrect: false },
+      { text: "Kazuma Satou", isCorrect: true },
+      { text: "Tanjiro Kamado", isCorrect: false },
+      { text: "Eren Yeager", isCorrect: false },
+      { text: "Batman", isCorrect: false },
     ],
   },
   {
     id: 1,
-    q: "What's the name of Midoryia's quirk?",
+    q: "Which anime is the character Rem from?",
     a: [
-      { text: "Cremation", isCorrect: false },
-      { text: "Rocket Fists", isCorrect: false },
-      { text: "Explosion", isCorrect: false },
-      { text: "One for all", isCorrect: true },
+      { text: "Tokyo Ghoul", isCorrect: false },
+      { text: "Avengers: Endgame", isCorrect: false },
+      { text: "Demon Slayer", isCorrect: false },
+      { text: "Re:Zero", isCorrect: true },
     ],
   },
   {
     id: 2,
-    q: "Which studio made Death Note?",
+    q: "Which character has the ability to cast explosion magic?",
     a: [
-      { text: "Shonen Jump", isCorrect: false },
-      { text: "Studio Deen", isCorrect: false },
-      { text: "Madhouse", isCorrect: true },
-      { text: "Pierrot", isCorrect: false },
+      { text: "Light Yagami", isCorrect: false },
+      { text: "Megumin", isCorrect: true },
+      { text: "John Cena", isCorrect: false },
+      { text: "Subaru Natsuki", isCorrect: false },
     ],
   },
   {
     id: 3,
-    q: "Which show involves Erern and his foster sister Mikasa?",
+    q: "Which show involves Eren and his foster sister Mikasa?",
     a: [
       { text: "MyHeroAcademia", isCorrect: false },
       { text: "KonoSuba", isCorrect: false },
