@@ -1,37 +1,37 @@
 const Questions = [
   {
     id: 0,
-    q: "What is capital of India?",
+    q: "Who is the main character in KonoSuba?",
     a: [
-      { text: "gandhinagar", isCorrect: false },
-      { text: "Surat", isCorrect: false },
-      { text: "Delhi", isCorrect: true },
-      { text: "mumbai", isCorrect: false },
+      { text: "Kazuma Satou", isCorrect: true },
+      { text: "Tanjiro Kamado", isCorrect: false },
+      { text: "Eren Yeager", isCorrect: false },
+      { text: "Batman", isCorrect: false },
     ],
   },
   {
     id: 1,
-    q: "What is the capital of Thailand?",
+    q: "Which anime is the character Rem from?",
     a: [
-      { text: "Lampang", isCorrect: false },
-      { text: "phuket", isCorrect: false },
-      { text: "Ayutthaya", isCorrect: false },
-      { text: "Bangkok", isCorrect: true },
+      { text: "Tokyo Ghoul", isCorrect: false },
+      { text: "Avengers: Endgame", isCorrect: false },
+      { text: "Demon Slayer", isCorrect: false },
+      { text: "Re:Zero", isCorrect: true },
     ],
   },
   {
     id: 2,
-    q: "What is the capital of Gujarat?",
+    q: "Which character has the ability to cast explosion magic?",
     a: [
-      { text: "surat", isCorrect: false },
-      { text: "vadodara", isCorrect: false },
-      { text: "gandhinagar", isCorrect: true },
-      { text: "rajkot", isCorrect: false },
+      { text: "Light Yagami", isCorrect: false },
+      { text: "Megumin", isCorrect: true },
+      { text: "John Cena", isCorrect: false },
+      { text: "Subaru Natsuki", isCorrect: false },
     ],
   },
   {
     id: 3,
-    q: "Which show involves Erern and his foster sister Mikasa?",
+    q: "Which show involves Eren and his foster sister Mikasa?",
     a: [
       { text: "MyHeroAcademia", isCorrect: false },
       { text: "KonoSuba", isCorrect: false },
@@ -137,7 +137,7 @@ var id = 0;
 
 next.addEventListener("click", () => {
   start = false;
-  if (id < 2) {
+  if (id < 3) {
     id++;
     iterate(id);
     console.log(id);
