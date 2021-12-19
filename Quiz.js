@@ -1,32 +1,32 @@
 const Questions = [
   {
     id: 0,
-    q: "What is capital of India?",
+    q: "What is the name of the main character in One Punch Man?",
     a: [
-      { text: "gandhinagar", isCorrect: false },
-      { text: "Surat", isCorrect: false },
-      { text: "Delhi", isCorrect: true },
-      { text: "mumbai", isCorrect: false },
+      { text: "Genos", isCorrect: false },
+      { text: "Kaneki", isCorrect: false },
+      { text: "Saitama", isCorrect: true },
+      { text: "Bang", isCorrect: false },
     ],
   },
   {
     id: 1,
-    q: "What is the capital of Thailand?",
+    q: "What's the name of Midoryia's quirk?",
     a: [
-      { text: "Lampang", isCorrect: false },
-      { text: "phuket", isCorrect: false },
-      { text: "Ayutthaya", isCorrect: false },
-      { text: "Bangkok", isCorrect: true },
+      { text: "Cremation", isCorrect: false },
+      { text: "Rocket Fists", isCorrect: false },
+      { text: "Explosion", isCorrect: false },
+      { text: "One for all", isCorrect: true },
     ],
   },
   {
     id: 2,
-    q: "What is the capital of Gujarat?",
+    q: "Which studio made Death Note?",
     a: [
-      { text: "surat", isCorrect: false },
-      { text: "vadodara", isCorrect: false },
-      { text: "gandhinagar", isCorrect: true },
-      { text: "rajkot", isCorrect: false },
+      { text: "Shonen Jump", isCorrect: false },
+      { text: "Studio Deen", isCorrect: false },
+      { text: "Madhouse", isCorrect: true },
+      { text: "Pierrot", isCorrect: false },
     ],
   },
   {
