@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,112 +8,134 @@
     <title>Anime Quiz</title>
     <link href="Styles.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Playfair Display'>
-    <body style="background-color:rgba(95, 173, 224, 0.877);">
-     
 
+<body style="background-color:rgba(121, 157, 235, 0.877);">
+
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .panel {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .question-container {
+            margin: 10px;
+            padding: 5px;
+            width: 80vw;
+            height: 10vh;
+            background-color: #cce495;
+            font-size: x-large;
+            text-align: center;
+
+        }
+
+        .result {
+            margin: 10px;
+            padding: 5px;
+            width: 80vw;
+            height: 10vh;
+            text-align: center;
+            font-size: 50px;
+
+        }
+
+        .option-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px;
+            padding: 5px;
+            width: 80vw;
+            height: 12vh;
+            background-color: #cce495;
+
+        }
+
+        .option {
+            padding: 10px;
+            width: 15vw;
+            height: 10vh;
+            font-size: larger;
+            background-color: lightskyblue;
+            border-radius: 25%;
+        }
+
+        .option:hover {
+            background-color: rgb(224, 98, 203);
+        }
+
+        .navigation {
+            width: 80vw;
+            height: 10vh;
+            margin: 10px;
+            padding: 5px;
+            display: flex;
+            justify-content: space-around;
+            background-color: #000000;
+        }
+
+        .Check,
+        .next {
+            width: 30vw;
+            height: 8vh;
+            padding: 5px;
+            font-size: larger;
+        }
+
+        .Check {
+
+            background-color: #50DBB4;
+        }
+
+        .next {
+            color: white;
+            background-color: #BF3325;
+        }
+    </style>
+
+    <div class="header">
+        <h1>Anime Center</h1>
+    </div>
+    <div class="navbar">
+        <a href="Homepage.html">Home</a>
+        <a href="Animelist.html">Popular Anime</a>
+        <a href="Aboutus.html">About Us</a>
+        <a href="Quiz.html">Anime Quiz</a>
+    </div>
+    <div>
         <style>
-            body{
-    padding: 0;
-    margin: 0;    
-    width:100vw;
-    height: 100vh;    
-}
-.panel{
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.question-container{
-    margin: 10px;
-    padding: 5px;
-    width: 80vw;
-    height: 10vh;
-    background-color: #c7dddf;
-    font-size: x-large;
-    text-align: center;
-      
-}
-.result{
-    margin: 10px;
-    padding: 5px;
-    width:80vw;
-    height: 10vh;
-    text-align: center;
-    font-size: 50px;
-      
-}
-.option-container{
-    display: flex;
-    justify-content: space-around; 
-    margin: 10px;
-    padding: 5px;
-    width: 80vw;
-    height: 20vh;
-    background-color: #9eb1b3;   
-        
-}
-.option{    
-    padding: 10px;
-    width: 15vw;
-    height: 10vh;
-    font-size: larger;
-    background-color: lightskyblue;
-    border-radius: 25%;
-}
-.option:hover{
-    background-color: lightgoldenrodyellow;
-}
-.navigation{
-    width: 80vw;
-    height: 10vh;
-    margin: 10px;
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    background-color:#c7dddf;
-}
-  
-.Check,.next{
-    width:30vw;
-    height: 8vh;
-    padding: 5px;
-    font-size: larger;
-}
-.Check{ 
-    
-    background-color: #50DBB4;
-}
-.next{
-    color: white;
-    background-color: #BF3325;
-}
+            h1 {
+                text-align: center;
+                font-size: 45px;
+            }
         </style>
+        </style>
+        <h1 style="font-family: Helvetica">Can you get all the questions right?</h1>
+    </div>
 
-        <div class="header">
-            <h1>Anime Center</h1>
-        </div>
-        <div class="navbar">
-            <a href="Homepage.html">Home</a>
-            <a href="Animelist.html">Popular Anime</a>
-            <a href="Aboutus.html">About Us</a>
-            <a href="Quiz.html">Anime Quiz</a>
-        </div>
     <body>
         <div class="panel">
             <div class="result">
-      
+
             </div>
             <div class="question-container" id="question">
             </div>
             <div class="option-container">
-                <button class="option" onclick="" id="op1" >option1</button>
-          
-                <button class="option" id="op2" >option2</button>
-          
+                <button class="option" onclick="" id="op1">option1</button>
+
+                <button class="option" id="op2">option2</button>
+
                 <button class="option" id="op3">option3</button>
-          
+
                 <button class="option" id="op4">option4</button>
             </div>
             <div class="navigation">
@@ -121,8 +144,8 @@
             </div>
         </div>
 
-<script src="Quiz.js"></script>
+        <script src="Quiz.js"></script>
 
     </body>
-    
-    </html>
+
+</html>
