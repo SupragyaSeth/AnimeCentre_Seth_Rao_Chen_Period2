@@ -1,37 +1,22 @@
 const Questions = [
   {
     id: 0,
-    q: "What is the name of the main character in One Punch Man?",
-    a: [
-      { text: "Genos", isCorrect: false },
-      { text: "Kaneki", isCorrect: false },
-      { text: "Saitama", isCorrect: true },
-      { text: "Bang", isCorrect: false },
+
     ],
   },
   {
     id: 1,
-    q: "What's the name of Midoryia's quirk?",
-    a: [
-      { text: "Cremation", isCorrect: false },
-      { text: "Rocket Fists", isCorrect: false },
-      { text: "Explosion", isCorrect: false },
-      { text: "One for all", isCorrect: true },
+
     ],
   },
   {
     id: 2,
-    q: "Which studio made Death Note?",
-    a: [
-      { text: "Shonen Jump", isCorrect: false },
-      { text: "Studio Deen", isCorrect: false },
-      { text: "Madhouse", isCorrect: true },
-      { text: "Pierrot", isCorrect: false },
+
     ],
   },
   {
     id: 3,
-    q: "Which show involves Erern and his foster sister Mikasa?",
+    q: "Which show involves Eren and his foster sister Mikasa?",
     a: [
       { text: "MyHeroAcademia", isCorrect: false },
       { text: "KonoSuba", isCorrect: false },
@@ -137,7 +122,7 @@ var id = 0;
 
 next.addEventListener("click", () => {
   start = false;
-  if (id < 2) {
+  if (id < 3) {
     id++;
     iterate(id);
     console.log(id);
