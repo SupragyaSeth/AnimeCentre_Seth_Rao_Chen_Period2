@@ -1,32 +1,17 @@
 const Questions = [
   {
     id: 0,
-    q: "Who is the main character in KonoSuba?",
-    a: [
-      { text: "Kazuma Satou", isCorrect: true },
-      { text: "Tanjiro Kamado", isCorrect: false },
-      { text: "Eren Yeager", isCorrect: false },
-      { text: "Batman", isCorrect: false },
+
     ],
   },
   {
     id: 1,
-    q: "Which anime is the character Rem from?",
-    a: [
-      { text: "Tokyo Ghoul", isCorrect: false },
-      { text: "Avengers: Endgame", isCorrect: false },
-      { text: "Demon Slayer", isCorrect: false },
-      { text: "Re:Zero", isCorrect: true },
+
     ],
   },
   {
     id: 2,
-    q: "Which character has the ability to cast explosion magic?",
-    a: [
-      { text: "Light Yagami", isCorrect: false },
-      { text: "Megumin", isCorrect: true },
-      { text: "John Cena", isCorrect: false },
-      { text: "Subaru Natsuki", isCorrect: false },
+
     ],
   },
   {
