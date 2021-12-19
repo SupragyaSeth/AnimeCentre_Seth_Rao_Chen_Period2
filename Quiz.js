@@ -21,7 +21,7 @@ const Questions = [
   },
   {
     id: 2,
-    q: "What is the capital of Gujarat",
+    q: "What is the capital of Gujarat?",
     a: [
       { text: "surat", isCorrect: false },
       { text: "vadodara", isCorrect: false },
@@ -31,7 +31,7 @@ const Questions = [
   },
   {
     id: 3,
-    q: "Which show involves Erern and his foster sister Mikasa",
+    q: "Which show involves Erern and his foster sister Mikasa?",
     a: [
       { text: "MyHeroAcademia", isCorrect: false },
       { text: "KonoSuba", isCorrect: false },

@@ -1,18 +1,83 @@
 .title {
     color: white;
     float: right;
-    margin-right: 390px;
-    margin-top: -15px;
+    margin-right: 43.5%;
+    margin-top: -0.5%;
 }
 
 .cover {
     float: left;
-    margin-left: 100px;
-    margin-top: 30px;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 40%;
 }
 
 .summary {
-    margin-right: 100px;
-    margin-left: 490px;
-    margin-top: 50px;
+    margin-right: 7%;
+    margin-left: 34%;
+    margin-top: 5%;
+}
+
+.collapsible {
+  background-color: rgb(13, 31, 65);
+  border-color: blue;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 60%;
+  text-align: center;
+  font-size: 15px;
+  margin-left: 1%;
+}
+
+.active, .collapsible:hover {
+  background-color: rgb(97, 174, 219);
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  color: white;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  width: 57.65%;
+  margin-left: 33.55%;
+  transition: max-height 0.2s ease-out;
+  background-color: #252525;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  width: 50%;
+  border: 1px solid rgb(153, 149, 149);
+  text-align: left;
+  padding: 10px;
+  }
+
+.character {
+  float: left;
+  margin-left: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.charName {
+  float: right;
+  margin-right: 20%;
+  margin-top: -4%;
 }

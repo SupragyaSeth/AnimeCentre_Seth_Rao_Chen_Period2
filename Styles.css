@@ -8,6 +8,7 @@
 /* Increase the font size of the <h1> element */
 .header h1 {
   font-size: 40px;
+  font-family: Verdana;
 }
 
 /* Style the top navigation bar */
@@ -24,6 +25,8 @@
   text-align: center; /* Center the text */
   padding: 14px 20px; /* Add some padding */
   text-decoration: none; /* Remove underline */
+  font-size: 20px;
+  font-family: Verdana;
 }
 
 /* Change color on hover/mouse-over */
@@ -53,30 +56,15 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  }
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 90%;
-}
-
-td {
-  border: 1px solid black;
-  text-align: left;
-  padding: 10px;
 }
 
 .description {
-  font-size: 30px;
   color: white;
   position: absolute;
-  top: 95%;
+  top: 90%;
   left: 5%;
+  font-size: 30px;
   margin: 10px;
   font-family: Arial;
-}
 
-.center{
-background-color: rgb(123,129,138) ;
 }
