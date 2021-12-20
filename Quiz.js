@@ -34,10 +34,10 @@ const Questions = [
     id: 3,
     q: "Which show involves Eren and his foster sister Mikasa?",
     a: [
-      { text: "MyHeroAcademia", isCorrect: false },
+      { text: "My Hero Academia", isCorrect: false },
       { text: "KonoSuba", isCorrect: false },
-      { text: "AttackonTitan", isCorrect: true },
-      { text: "ThomasandFriends", isCorrect: false },
+      { text: "Attack on Titan", isCorrect: true },
+      { text: "Thomas and Friends", isCorrect: false },
     ],
   },
 ];
