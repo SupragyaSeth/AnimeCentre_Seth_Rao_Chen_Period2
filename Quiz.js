@@ -37,7 +37,7 @@ const Questions = [
       { text: "MyHeroAcademia", isCorrect: false },
       { text: "KonoSuba", isCorrect: false },
       { text: "AttackonTitan", isCorrect: true },
-      { text: "ThomastheTankEngineandFriends", isCorrect: false },
+      { text: "ThomasandFriends", isCorrect: false },
     ],
   },
 ];
